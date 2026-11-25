@@ -1,0 +1,30 @@
+
+###
+POST http://127.0.0.1:8000/register/
+Content-Type: application/json
+
+{
+    "username":"Adith",
+    "email":"adith@gmail.com",
+    "password":"adith@123"
+}
+
+###
+GET http://127.0.0.1:8000/register/
+Accept: application/json
+
+###
+POST http://127.0.0.1:8000/product/
+Content-Type: application/json
+
+{
+    "product_name":"shirt",
+    "Product_cod" : "1545345",
+    "Category" : "men's w",
+    "price" : "3000",
+    "stock_quantity":3,
+}
+
+###
+GET http://127.0.0.1:8000/product/
+Accept: application/json
